@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharpProgramms.Pyramid</StartupObject>
+    <StartupObject>CSharpProgramms.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
