@@ -13,7 +13,7 @@ namespace CSharpProgramms
 
     public interface IWorld
     {
-       // void Travel();
+        void Travel();
     }
 
     public abstract class AbstractCountry : ICountry, IWorld
