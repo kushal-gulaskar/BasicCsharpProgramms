@@ -36,7 +36,7 @@ namespace CSharpProgramms
             // Multiply the numbers from 1 to n to calculate the factorial
             for (int i = 1; i <= number; i++)
             {
-                factorial = factorial * i;   //Or  factorial *= i;
+                factorial = factorial * i;   
             }
 
             // Return the calculated factorial

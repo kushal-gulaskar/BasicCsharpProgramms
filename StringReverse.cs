@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+
 class StringReverse
 {
     public static void Main(string[] args)
