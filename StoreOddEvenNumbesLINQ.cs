@@ -11,13 +11,13 @@ namespace CSharpProgramms
         static void Main(string[] args)
         {
             // Create a list of numbers from 1 to 100
-            var numbers = Enumerable.Range(1, 100);
+            List<int> nums= new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             // Store even numbers in a list
-            var evenNumbers = numbers.Where(x => x % 2 == 0);
+            var evenNumbers = nums.Where(x => x % 2 == 0);
 
             // Store odd numbers in a list
-            var oddNumbers = numbers.Where(x => x % 2 != 0);
+            var oddNumbers = nums.Where(x => x % 2 != 0);
 
             // Print the even numbers
             Console.WriteLine("Even numbers:");

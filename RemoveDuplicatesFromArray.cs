@@ -1,46 +1,49 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CSharpProgramms
 {
-    internal class RemoveDuplicatesFromArray
+    class RemoveDuplicatesFromarray
     {
         public static void Main(string[] args)
         {
-            int[] array = { 1, 1, 2, 2, 3, 3, 4, 5, 6 };
-            int[] newArray = new int[array.Length];
+            // Create a static array with duplicate values
+            int[] nums = { 1, 2, 3, 1, 2, 3, 4, 5 };
 
-            int newArrayIndex = 0;
+            // Create a new array to store the distinct values
+            int[] unique=new int[nums.Length];
+            int index = 0;
 
-          //  Console.WriteLine(num[]);
-
-            for (int i = 0; i < array.Length; i++)
+            // Iterate through the original array
+            for (int i=0; i<nums.Length; i++)
             {
-                bool isDupli = false;
-                for (int j = 0; j < newArrayIndex; j++)
+                // Check if the current element is already in the new array
+                bool isDup =false;
+                for(int j=0; j< index;j++)
                 {
-                    if (array[i] == newArray[j])
+                    if (nums[i] == nums[j])
                     {
-                        isDupli = true;
+                        isDup = true;
                         break;
                     }
                 }
-                if (!isDupli)
+
+                // If the current element is not a duplicate, add it to the new array
+                if (isDup== false)
                 {
-                    newArray[newArrayIndex] = array[i];
-                    newArrayIndex++;
+                    unique[index] = nums[i];
+                    index++;
                 }
             }
 
-            for(int i=0; i < newArrayIndex; i++)
+            // Print the new array without duplicates
+            for (int i=0;i< index; i++)
             {
-                Console.WriteLine(newArray[i]); 
+                Console.Write(unique[i]);
             }
         }
-       
     }
 }
