@@ -9,6 +9,7 @@ namespace CSharpProgramms
     internal class Test
     {
 
+
         static void Main(string[] args)
         {
             List<int> list = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -17,9 +18,9 @@ namespace CSharpProgramms
 
 
             even = list.Where(li => li % 2 == 0).ToList();
-            odd=list.Where(li=>li%2!=0).ToList();   
-           
-            foreach(int i in even)
+            odd = list.Where(li => li % 2 != 0).ToList();
+
+            foreach (int i in even)
                 Console.Write(i);
 
 

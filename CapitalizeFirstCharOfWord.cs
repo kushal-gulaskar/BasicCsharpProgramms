@@ -20,7 +20,7 @@ namespace CSharpProgramms
             {
                 char one = char.ToUpper(words[i][0]);   //e.g. "T"
                 string two= words[i].Substring(1);     // e.g."his"
-                words[i] = char.ToUpper(words[i][0]) + words[i].Substring(1); 
+                words[i] = one+two; 
             }
 
             for (int i = 0; i < words.Length; i++)

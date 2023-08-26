@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kusha\\Source\\Repos\\BasicCsharpProgramms\\CSharpProgramms.csproj",
+      "projectUniqueName": "C:\\Users\\kusha\\source\\repos\\BasicCsharpProgramms\\CSharpProgramms.csproj",
       "projectName": "CSharpProgramms",
-      "projectPath": "C:\\Users\\kusha\\Source\\Repos\\BasicCsharpProgramms\\CSharpProgramms.csproj",
+      "projectPath": "C:\\Users\\kusha\\source\\repos\\BasicCsharpProgramms\\CSharpProgramms.csproj",
       "packagesPath": "C:\\Users\\kusha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kusha\\Source\\Repos\\BasicCsharpProgramms\\obj\\",
+      "outputPath": "C:\\Users\\kusha\\source\\repos\\BasicCsharpProgramms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
