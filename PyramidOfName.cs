@@ -11,12 +11,12 @@ namespace CSharpProgramms
         public static void Main(string[] args)
         {
             string input = "EPAM";
-            string rev="";
+            string NamePyramid="";
 
             for(int i=0; i<= input.Length-1; i++)
             {
-                rev = rev + input[i];
-                Console.WriteLine(rev);
+                NamePyramid = NamePyramid + input[i];
+                Console.WriteLine(NamePyramid);
             }
         }
     }

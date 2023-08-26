@@ -1,25 +1,20 @@
 ﻿using System;
 using System.Text;
 
-class StringReverse
+namespace CSharpProgramms
 {
-    public static void Main(string[] args)
+    class StringReverse
     {
-        Console.WriteLine("Enter a string: ");
-        string input = Console.ReadLine();
-        string reversed = ReverseString(input);
-        Console.WriteLine("Reversed string: " + reversed);
-    }
-    static string ReverseString(string input)
-    {
-        // Initialize an empty string to store the reversed string
-        string reversed = "";
-        // Iterate through the characters of the input string from the end to the beginning
-        for (int i = input.Length - 1; i >= 0; i--)
+        public static void Main(string[] args)
         {
-            // Append each character to the reversed string
-            reversed += input[i];
+            string input = "Name";
+            string reversed = "";
+
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                reversed = reversed + input[i];
+            }
+            Console.WriteLine("Reversed string: " + reversed);
         }
-        return reversed;
     }
 }

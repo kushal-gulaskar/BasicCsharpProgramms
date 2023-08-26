@@ -13,13 +13,6 @@ namespace CSharpProgramms
             int rows = 5;
             Console.WriteLine("Number of rows: " + rows);
 
-            // Call the PyramidPattern function to generate the pyramid
-            PyramidPattern(rows);
-        }
-
-        static void PyramidPattern(int rows)
-        {
-            // Iterate through each row
             for (int i = 1; i <= rows; i++)
             {
                 // Print spaces for each row to align the pyramid

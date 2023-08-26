@@ -15,24 +15,13 @@ namespace CSharpProgramms
             // Split the string into words.
             string[] words = testString.Split(' ');
 
-            // Capitalize the first letter of each word.
-            for (int i = 0; i < words.Length; i++)
+            foreach(string word in words)
             {
-                char one = char.ToUpper(words[i][0]);   //e.g. "T"
-                string two= words[i].Substring(1);     // e.g."his"
-                words[i] = one+two; 
-            }
-
-            for (int i = 0; i < words.Length; i++)
-            {
-                Console.Write(words[i]);
+                char first = char.ToUpper(word[0]);//e.g. "T"
+                string result = first+word.Substring(1);// e.g."T" + "his"
+                Console.Write(result);
                 Console.Write(" ");
             }
-            // Concatenate the capitalized words back into a string.
-            string capitalizedString = string.Join(" ", words);
-
-            //// Print the resulting string.
-            //Console.WriteLine(capitalizedString);
         }
     }
 }

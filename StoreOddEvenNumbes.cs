@@ -32,16 +32,15 @@ namespace CSharpProgramms
 
             // Print the even numbers.
             Console.WriteLine("Even numbers:");
-            for (int i = 1; i < evenNumbers.Length; i++)
+            foreach(int nums in evenNumbers)
             {
-                Console.WriteLine(evenNumbers[i]);
+                Console.Write(nums);
             }
 
-            // Print the odd numbers.
             Console.WriteLine("Odd numbers:");
-            for (int i = 1; i < oddNumbers.Length; i++)
+            foreach (int nums in oddNumbers)
             {
-                Console.WriteLine(oddNumbers[i]);
+                Console.Write(nums);
             }
         }
     }

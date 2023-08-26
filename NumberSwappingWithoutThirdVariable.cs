@@ -10,15 +10,8 @@ namespace CSharpProgramms
     {
         public static void Main(string[] args)
         {
-            Console.Write("Enter the first number: ");
-            int num1 = int.Parse(Console.ReadLine());
-
-            Console.Write("Enter the second number: ");
-            int num2 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Before swapping: ");
-            Console.WriteLine("First number: " + num1);
-            Console.WriteLine("Second number: " + num2);
+            int num1 = 10;
+            int num2 = 20;
 
             // swap the values
             num1 = num1 + num2;

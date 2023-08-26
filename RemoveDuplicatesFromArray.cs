@@ -17,7 +17,6 @@ namespace CSharpProgramms
             int[] unique=new int[nums.Length];
             int index = 0;
 
-            // Iterate through the original array
             for (int i=0; i<nums.Length; i++)
             {
                 // Check if the current element is already in the new array
@@ -39,10 +38,9 @@ namespace CSharpProgramms
                 }
             }
 
-            // Print the new array without duplicates
-            for (int i=0;i< index; i++)
+            foreach(int num in unique)
             {
-                Console.Write(unique[i]);
+                Console.Write(num);
             }
         }
     }
