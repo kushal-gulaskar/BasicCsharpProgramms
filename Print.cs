@@ -1,7 +1,10 @@
 ﻿/***********************************************************************/
 //1. Reverse Each word from given string
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
+using System.Net.Http;
+using System.Text;
 
 internal class ReverseEachWordFromStringNew
 {
@@ -273,18 +276,6 @@ Number of rows: 5
  *******
 *********
 /***********************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //11. Pyramid pattern Name
